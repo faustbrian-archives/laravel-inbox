@@ -25,8 +25,6 @@ class InboxServiceProvider extends ServiceProvider
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
-            $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
-
             $this->publishes([
                 __DIR__.'/../../config/inbox.php' => $this->app->configPath('inbox.php'),
             ], 'config');
