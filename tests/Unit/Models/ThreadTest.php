@@ -5,26 +5,26 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Tests\Unit\Models;
+namespace Konceiver\Inbox\Tests\Unit\Models;
 
-use Facades\KodeKeep\Inbox\Tests\Factories\MessageFactory;
-use Facades\KodeKeep\Inbox\Tests\Factories\ParticipantFactory;
-use Facades\KodeKeep\Inbox\Tests\Factories\ThreadFactory;
-use Facades\KodeKeep\Inbox\Tests\Factories\UserFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\MessageFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\ParticipantFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\ThreadFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use KodeKeep\Inbox\Models\Message;
-use KodeKeep\Inbox\Models\Thread;
-use KodeKeep\Inbox\Tests\TestCase;
-use KodeKeep\Inbox\Tests\Unit\ClassThatHasInbox;
+use Konceiver\Inbox\Models\Message;
+use Konceiver\Inbox\Models\Thread;
+use Konceiver\Inbox\Tests\TestCase;
+use Konceiver\Inbox\Tests\Unit\ClassThatHasInbox;
 
 /**
- * @covers \KodeKeep\Inbox\Models\Thread
+ * @covers \Konceiver\Inbox\Models\Thread
  */
 class ThreadTest extends TestCase
 {

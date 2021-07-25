@@ -5,21 +5,21 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Tests\Unit\Events;
+namespace Konceiver\Inbox\Tests\Unit\Events;
 
-use Facades\KodeKeep\Inbox\Tests\Factories\MessageFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\MessageFactory;
 use Illuminate\Support\Facades\Event;
-use KodeKeep\Inbox\Events\MessageCreated;
-use KodeKeep\Inbox\Tests\TestCase;
+use Konceiver\Inbox\Events\MessageCreated;
+use Konceiver\Inbox\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Inbox\Events\MessageCreated
+ * @covers \Konceiver\Inbox\Events\MessageCreated
  */
 class MessageCreatedTest extends TestCase
 {

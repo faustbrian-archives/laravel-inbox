@@ -5,25 +5,25 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Tests\Unit\Concerns;
+namespace Konceiver\Inbox\Tests\Unit\Concerns;
 
 use Carbon\Carbon;
-use Facades\KodeKeep\Inbox\Tests\Factories\ThreadFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\ThreadFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use KodeKeep\Inbox\Models\Message;
-use KodeKeep\Inbox\Models\Participant;
-use KodeKeep\Inbox\Tests\TestCase;
-use KodeKeep\Inbox\Tests\Unit\ClassThatHasInbox;
+use Konceiver\Inbox\Models\Message;
+use Konceiver\Inbox\Models\Participant;
+use Konceiver\Inbox\Tests\TestCase;
+use Konceiver\Inbox\Tests\Unit\ClassThatHasInbox;
 
 /**
- * @covers \KodeKeep\Inbox\Concerns\HasInbox
+ * @covers \Konceiver\Inbox\Concerns\HasInbox
  */
 class HasInboxTest extends TestCase
 {

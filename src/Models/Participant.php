@@ -5,23 +5,23 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Models;
+namespace Konceiver\Inbox\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use KodeKeep\Inbox\Contracts\Participant as Contract;
-use KodeKeep\Inbox\Events\ParticipantCreated;
-use KodeKeep\Inbox\Events\ParticipantDeleted;
-use KodeKeep\Inbox\Events\ParticipantUpdated;
-use KodeKeep\Inbox\Models;
+use Konceiver\Inbox\Contracts\Participant as Contract;
+use Konceiver\Inbox\Events\ParticipantCreated;
+use Konceiver\Inbox\Events\ParticipantDeleted;
+use Konceiver\Inbox\Events\ParticipantUpdated;
+use Konceiver\Inbox\Models;
 
 class Participant extends Model implements Contract
 {

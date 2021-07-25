@@ -5,21 +5,21 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Tests\Unit\Actions;
+namespace Konceiver\Inbox\Tests\Unit\Actions;
 
-use Facades\KodeKeep\Inbox\Tests\Factories\MessageFactory;
-use Facades\KodeKeep\Inbox\Tests\Factories\ThreadFactory;
-use KodeKeep\Inbox\Actions\RemoveMessageFromThread;
-use KodeKeep\Inbox\Tests\TestCase;
+use Facades\Konceiver\Inbox\Tests\Factories\MessageFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\ThreadFactory;
+use Konceiver\Inbox\Actions\RemoveMessageFromThread;
+use Konceiver\Inbox\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Inbox\Actions\RemoveMessageFromThread
+ * @covers \Konceiver\Inbox\Actions\RemoveMessageFromThread
  */
 class RemoveMessageFromThreadTest extends TestCase
 {

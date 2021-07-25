@@ -5,7 +5,7 @@
 ``` php
 namespace App;
 
-use KodeKeep\Inbox\HasMessages;
+use Konceiver\Inbox\HasMessages;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model

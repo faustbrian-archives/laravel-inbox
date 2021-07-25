@@ -5,21 +5,21 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Tests\Factories;
+namespace Konceiver\Inbox\Tests\Factories;
 
-use Facades\KodeKeep\Inbox\Tests\Factories\ThreadFactory;
-use Facades\KodeKeep\Inbox\Tests\Factories\UserFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\ThreadFactory;
+use Facades\Konceiver\Inbox\Tests\Factories\UserFactory;
 use Faker\Generator;
-use KodeKeep\Fabrik\Factory;
-use KodeKeep\Inbox\Models\Participant;
-use KodeKeep\Inbox\Models\Thread;
-use KodeKeep\Inbox\Tests\Unit\ClassThatHasInbox;
+use Konceiver\Fabrik\Factory;
+use Konceiver\Inbox\Models\Participant;
+use Konceiver\Inbox\Models\Thread;
+use Konceiver\Inbox\Tests\Unit\ClassThatHasInbox;
 
 class ParticipantFactory extends Factory
 {

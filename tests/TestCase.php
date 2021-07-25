@@ -5,19 +5,19 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Inbox.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Inbox\Tests;
+namespace Konceiver\Inbox\Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Facades\Event;
-use KodeKeep\Inbox\Providers\InboxServiceProvider;
-use KodeKeep\Inbox\Tests\Unit\ClassThatHasInbox;
+use Konceiver\Inbox\Providers\InboxServiceProvider;
+use Konceiver\Inbox\Tests\Unit\ClassThatHasInbox;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
